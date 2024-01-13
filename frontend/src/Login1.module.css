@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif !important;
+    height:100vh;
+    color: #3a3e42 !important;
+}
+
+.Button_style {
+  margin-left: 10px !important;
+  margin-right: 10px;
+}
+
+.centerTable {
+  margin: 10px auto;
+}
+
+h2 {
+    color: #3a8bbd;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.AppForm .AppFormLeft h1{
+    font-size: 35px;
+}
+.AppForm .AppFormLeft input:focus{
+    border-color: #ced4da;
+   
+}
+.AppForm .AppFormLeft input::placeholder{
+   font-size: 15px;
+}
+.AppForm .AppFormLeft i{
+  position: absolute;
+    right: 0;
+    top: 100%;
+    transform: translateY(-50%);
+}
+.AppForm .AppFormLeft a{
+    color: #3a3e42 ;
+}
+.AppForm .AppFormLeft Button{
+    background: linear-gradient(45deg,#b14c68,#c9807c);
+    border-radius: 30px;
+}
+.AppForm .AppFormLeft p span{
+  color: #007bff;
+}
+.AppForm .AppFormRight{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Cn1lR56AEnEhNAxxUAc97Dyo7D-TFfv6Jg&usqp=CAU');
+    height: 450px;
+    width: 450px;
+    background-size: cover;
+    background-position: center;
+}
+.AppForm .AppFormRight:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    opacity: 0.5;
+}
+.AppForm .AppFormRight h2{
+    z-index: 1;
+}
+.AppForm .AppFormRight h2::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  bottom: 0;
+  left:50%;
+  transform: translateX(-50%);
+}
+.AppForm .AppFormRight p{
+    z-index: 1;
+}

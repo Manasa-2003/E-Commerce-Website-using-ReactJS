@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button_style {
+  margin-left: 10px !important;
+  margin-right: 10px;
+}
+
+
+h2 {
+    color: #3f51b5;
+}
+

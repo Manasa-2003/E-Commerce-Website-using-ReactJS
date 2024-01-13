@@ -1,0 +1,98 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper1 {
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.accordian1 {
+    width : 500px;
+}
+
+.item1 {
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.title1 {
+    color: #85662b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content1 {
+    color: #000;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    background-color: #ecf2f5;
+
+}
+
+.content.show1 {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+div.column {
+    float: right;
+    width : 25%;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+}
+
+.pictures {
+    background-color: aliceblue;
+}
+
+.pictures::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+div.container {
+    text-align: center;
+    padding: 2px 20px;
+}
+
+.s-bar {
+    background-color: aliceblue;
+}
+
+.s-bar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    max-width: 400px;
+}
+
+.s-bar .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}  
+
+.s-bar .search-container button:hover {
+    background: #ccc;
+}
